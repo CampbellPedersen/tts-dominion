@@ -1,0 +1,31 @@
+function arrayUnique(a)
+  hash = {}
+  out = {}
+
+  for _,v in pairs(a) do
+    if (not hash[v]) then
+      out[#out+1] = v
+      hash[v] = true
+    end
+  end
+
+  return out
+end
+
+function arraySort(a)
+  table.sort(a, function (left, right)
+    return left < right
+  end)
+  return a
+end
+
+function arrayMerge(a1, a2)
+  for _,v in pairs(a2) do
+    table.insert(a1, v)
+  end
+  return arrayUnique(a1);
+end
+
+function arrayPrint(a)
+  print(table.concat(a, ", "))
+end
