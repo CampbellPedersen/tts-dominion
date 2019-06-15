@@ -1,5 +1,5 @@
 Card =  {
-  GUID = "",
+  guid = "",
   cost = 0,
   debt = 0,
   potion = 0,
