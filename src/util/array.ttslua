@@ -33,6 +33,22 @@ function arrayMerge(a1, a2)
   return arrayUnique(a1);
 end
 
+function arrayUniqueRandom(a, numElements)
+  math.randomseed(os.time())
+  pickedIndexes= {}
+  pickedElements= {}
+  for i=1,numElements do
+    selected = math.random(#a)
+    while(pickedIndexes[selected] ~= nil) do
+      selected = math.random(#a)
+    end
+    pickedIndexes[selected] = selected
+    pickedElements[#pickedElements+ 1] = a[selected]
+  end
+
+  return pickedElements
+end
+
 function arrayPrint(a)
   print(table.concat(a, ", "))
 end
