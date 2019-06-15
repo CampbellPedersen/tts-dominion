@@ -1,5 +1,3 @@
-#include cards/index
-
 function setup()
   for _,card in pairs(SUPPLY_CARDS) do
     obj = getObjectFromGUID(card.guid)

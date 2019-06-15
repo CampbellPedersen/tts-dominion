@@ -1,5 +1,3 @@
-#include !/dominion/types
-
 PoorHouse = Card:new{
   guid = "27d177",
   cost = 1,

@@ -1,5 +1,3 @@
-#include !/dominion/types
-
 Rats = Card:new{
   guid = "f250cb",
   cost = 4,

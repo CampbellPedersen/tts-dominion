@@ -1,0 +1,21 @@
+Card =  {
+  GUID = "",
+  cost = 0,
+  debt = 0,
+  potion = 0,
+  types = {}
+}
+
+function Card:new (o)
+  o = o or {}   -- create object if user does not provide one
+  setmetatable(o, self)
+  self.__index = self
+  return o
+end
+
+function Card:setup (obj)
+  position = obj.getPosition()
+  for i=1,9 do
+    obj.clone({position = {x=position.x, y=position.y + (0.1*i), z=position.z}})
+  end
+end
