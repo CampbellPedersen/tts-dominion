@@ -1,0 +1,18 @@
+#include !/dominion/setup
+
+function onLoad()
+  params = {
+      click_function = "setup",
+      function_owner = self,
+      label          = "",
+      position       = {0, 0.3, 0},
+      rotation       = {0, 0, 0},
+      width          = 600,
+      height         = 600,
+      font_size      = 340,
+      color          = {0,0,0,0},
+      font_color     = {1, 1, 1},
+      tooltip        = "Set up a new game of Dominion.",
+  }
+  self.createButton(params)
+end
