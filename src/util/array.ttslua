@@ -19,6 +19,13 @@ function arraySort(a)
   return a
 end
 
+function arraySortTables(a, prop)
+  table.sort(a, function (left, right)
+    return left[prop] < right[prop]
+  end)
+  return a
+end
+
 function arrayMerge(a1, a2)
   for _,v in pairs(a2) do
     table.insert(a1, v)
