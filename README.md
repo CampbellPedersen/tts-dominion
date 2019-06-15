@@ -15,6 +15,7 @@
 5. Once the game is loaded, press ctrl+shift+L
 6. Copy this repo's /src directory into the Tabletop Simulator Lua directory and press ctrl+shift+S
 
-<b>NOTE</b>: To test your changes in TTS, just press ctrl+shift+S in Atom
-
-<b>ALSO</b>: If you make changes to Global.-1.ttslua in the Tabletop Simulator Lua directory, please remember to change the repo's copy too
+#### Developer tips
+- Remember, to make changes to object scripts you must change them in the Tabletop Simulator Lua directory. If you want to make changes to our own scripts, make changes in the rep
+- To test your changes in TTS, just press ctrl+shift+S in Atom
+- If you make changes to any global/object scripts in the Tabletop Simulator Lua directory, please remember to change the repo's copy too

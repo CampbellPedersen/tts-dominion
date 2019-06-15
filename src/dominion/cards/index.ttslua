@@ -1,1 +1,7 @@
 #include poor-house
+#include rats
+
+SUPPLY_CARDS = {
+  PoorHouse,
+  Rats
+}

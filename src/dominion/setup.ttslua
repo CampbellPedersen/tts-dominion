@@ -1,6 +1,8 @@
 #include cards/index
 
 function setup()
-  obj = getObjectFromGUID(PoorHouse.guid)
-  PoorHouse:setup(obj)
+  for _,card in pairs(SUPPLY_CARDS) do
+    obj = getObjectFromGUID(card.guid)
+    card:setup(obj)
+  end
 end

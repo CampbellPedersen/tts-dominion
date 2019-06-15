@@ -1,5 +1,3 @@
-#include dominion/cards/index
-
 --[[ The onLoad event is called after the game save finishes loading. --]]
 function onLoad()
 

@@ -1,0 +1,16 @@
+#include !/dominion/types
+
+Rats = Card:new{
+  guid = "f250cb",
+  cost = 4,
+  debt = 0,
+  supply = true,
+  types = { CardTypes.Action },
+}
+
+function Rats:setup (obj)
+  position = obj.getPosition()
+  for i=1,19 do
+    obj.clone({position = {x=position.x, y=position.y + (0.1*i), z=position.z}})
+  end
+end
