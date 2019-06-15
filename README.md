@@ -13,9 +13,8 @@
 3. Change the path to be the /src directory of this repository
 4. Open Tabletop Simulator, and load the included save file (not in this repo yet)
 5. Once the game is loaded, press ctrl+shift+L
-6. Copy this repo's /src directory into the Tabletop Simulator Lua directory and press ctrl+shift+S
 
 #### Developer tips
-- Remember, to make changes to object scripts you must change them in the Tabletop Simulator Lua directory. If you want to make changes to our own scripts, make changes in the rep
 - To test your changes in TTS, just press ctrl+shift+S in Atom
+- To make changes to Tabletop Simulator's object scripts, you must change them in the Tabletop Simulator Lua directory.
 - If you make changes to any global/object scripts in the Tabletop Simulator Lua directory, please remember to change the repo's copy too

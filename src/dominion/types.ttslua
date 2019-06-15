@@ -2,7 +2,7 @@ Card =  {
   GUID = "",
   cost = 0,
   debt = 0,
-  supply = true,
+  potion = 0,
   types = {}
 }
 
