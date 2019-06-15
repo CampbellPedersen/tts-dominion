@@ -1,6 +1,12 @@
 # tts-dominion
 
-### Developers Guide
+### Host Quick-Start Guide
+1. On GitHub, click "Clone or download" > Download ZIP
+2. Unzip, and copy the /save directory's contents into your TTS save file directory
+3. Open the SaveFileInfos.json file in notepad, and put in your Windows username
+4. Load the save and enjoy!
+
+### Developer Guide
 1. Download the [Atom](https://atom.io/) text editor, and install + enable the tabletopsimulator-lua package
 2. Open the package's settings, and find the "base path for files you wish to #include" setting
 3. Change the path to be the /src directory of this repository
