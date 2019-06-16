@@ -1,0 +1,7 @@
+Haven = Card:new{
+  guid = "0547dd",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardType.Duration },
+}

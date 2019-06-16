@@ -1,12 +1,33 @@
--- Depdendencies
+-- Dependencies
 #include !/dominion/card
 #include !/dominion/constants
 
 -- Cards
+#include beggar
+#include candlestick-maker
+#include cellar
+#include chapel
+#include courtyard
+#include crossroads
+#include encampment
+-- #include haven
+#include lurker
+#include moat
+#include patrician
 #include poor-house
 #include rats
 
-SUPPLY_CARDS = {
+SUPPLY_ELIGIBLE_CARDS = {
+  Beggar,
+  CandlestickMaker,
+  Cellar,
+  Chapel,
+  Courtyard,
+  Crossroads,
+  Encampment,
+  Lurker,
+  Moat,
+  Patrician,
   PoorHouse,
   Rats
 }

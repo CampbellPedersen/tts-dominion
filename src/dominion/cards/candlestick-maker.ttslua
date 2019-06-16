@@ -1,0 +1,7 @@
+CandlestickMaker = Card:new{
+  guid = "f1b8f9",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

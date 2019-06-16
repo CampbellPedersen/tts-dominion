@@ -1,0 +1,7 @@
+Courtyard = Card:new{
+  guid = "6f6299",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

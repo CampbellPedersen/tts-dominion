@@ -1,8 +1,26 @@
+#include !/util/array
 #include cards/index
 
+supplyCoordinates = {
+  {-8.00, 1.14, -3.00},
+  {-4.00, 1.14, -3.00},
+  {0.00, 1.14, -3.00},
+  {4.00, 1.14, -3.00},
+  {8.00, 1.14, -3.00},
+  {-8.00, 1.14, -9.00},
+  {-4.00, 1.14, -9.00},
+  {0.00, 1.14, -9.00},
+  {4.00, 1.14, -9.00},
+  {8.00, 1.14, -9.00}
+}
+
 function setup()
-  for _,card in pairs(SUPPLY_CARDS) do
+  selectedCards = arrayRandomUnique(SUPPLY_ELIGIBLE_CARDS, 10)
+  sortedCards = arraySortTables(selectedCards, "cost")
+  for index,card in pairs(sortedCards) do
     obj = getObjectFromGUID(card.guid)
-    card:setup(obj)
+    clonedCard = obj.clone({ position = supplyCoordinates[index], snap_to_grid = true })
+    clonedCard.setRotation({0,180,0})
+    card:setup(clonedCard)
   end
 end

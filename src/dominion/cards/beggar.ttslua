@@ -1,0 +1,7 @@
+Beggar = Card:new{
+  guid = "e71ac7",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reaction },
+}

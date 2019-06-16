@@ -1,0 +1,7 @@
+Encampment = Card:new{
+  guid = "bbf9f9",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

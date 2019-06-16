@@ -1,0 +1,7 @@
+Lurker = Card:new{
+  guid = "ceb745",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

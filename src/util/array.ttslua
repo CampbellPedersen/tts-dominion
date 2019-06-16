@@ -12,6 +12,16 @@ function arrayUnique(a)
   return out
 end
 
+function arrayHasValue (a, val)
+    for index, value in ipairs(a) do
+        if value == val then
+            return true
+        end
+    end
+
+    return false
+end
+
 function arraySort(a)
   table.sort(a, function (left, right)
     return left < right
@@ -33,19 +43,17 @@ function arrayMerge(a1, a2)
   return arrayUnique(a1);
 end
 
-function arrayUniqueRandom(a, numElements)
+function arrayRandomUnique(a, numElements)
   math.randomseed(os.time())
   pickedIndexes= {}
   pickedElements= {}
   for i=1,numElements do
-    selected = math.random(#a)
-    while(pickedIndexes[selected] ~= nil) do
+    while(arrayHasValue(pickedIndexes, selected) or selected == nil) do
       selected = math.random(#a)
     end
-    pickedIndexes[selected] = selected
-    pickedElements[#pickedElements+ 1] = a[selected]
+    pickedIndexes[#pickedIndexes+1] = selected
+    pickedElements[#pickedElements+1] = a[selected]
   end
-
   return pickedElements
 end
 
