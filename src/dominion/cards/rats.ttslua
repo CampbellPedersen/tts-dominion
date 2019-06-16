@@ -8,7 +8,9 @@ Rats = Card:new{
 
 function Rats:setup (obj)
   position = obj.getPosition()
-  for i=1,19 do
-    obj.clone({ position = {x=position.x, y=position.y + (0.02*i), z=position.z , snap_to_grid = true }})
+  deck = obj.clone({ position = {x=position.x, y=position.y + 0.1, z=position.z} })
+  for i=1,18 do
+    clone = obj.clone({ position = {x=position.x, y=position.y + (0.01*i), z=position.z} })
+    deck = deck.putObject(clone)
   end
 end
