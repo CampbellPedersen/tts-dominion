@@ -2,6 +2,6 @@ PoorHouse = Card:new{
   guid = "27d177",
   cost = 1,
   debt = 0,
-  supply = true,
+  potion = 0,
   types = { CardTypes.Action },
 }

@@ -2,7 +2,7 @@ Rats = Card:new{
   guid = "f250cb",
   cost = 4,
   debt = 0,
-  supply = true,
+  potion = 0,
   types = { CardTypes.Action },
 }
 
