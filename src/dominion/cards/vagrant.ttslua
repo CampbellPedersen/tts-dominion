@@ -1,0 +1,7 @@
+Vagrant = Card:new{
+  guid = "d8abf0",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Teacher = Card:new{
+  guid = "eb39d1",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve },
+}

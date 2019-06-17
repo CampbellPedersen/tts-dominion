@@ -1,0 +1,28 @@
+#include peasant-upgrades/soldier
+#include peasant-upgrades/fugitive
+#include peasant-upgrades/disciple
+#include peasant-upgrades/teacher
+
+Peasant = Card:new{
+  guid = "723635",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Traveller },
+}
+
+function Peasant:setup (obj, position)
+  upgrades = {
+    { card = Soldier, position = {16.06, 1.03, -3.00} },
+    { card = Fugitive, position = {20.00, 1.03, -3.00} },
+    { card = Hero, position = {24.00, 1.03, -3.00} },
+    { card = Teacher, position = {28.00, 1.03, -3.00} },
+  }
+  
+  Card:setup(obj, position)
+
+  for _,upgrade in pairs(upgrades) do
+    upgradeObj = getObjectFromGUID(upgrade.card.guid)
+    upgrade.card:setup(upgradeObj, upgrade.position)
+  end
+end

@@ -15,6 +15,7 @@
 #include moat
 #include page
 #include patrician
+#include peasant
 #include poor-house
 #include rats
 
@@ -30,6 +31,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Moat,
   Page,
   Patrician,
+  Peasant,
   PoorHouse,
   Rats
 }

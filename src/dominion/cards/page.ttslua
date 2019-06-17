@@ -11,20 +11,18 @@ Page = Card:new{
   types = { CardTypes.Action, CardTypes.Traveller },
 }
 
-pageUpgrades = {
-  { card = TreasureHunter, position = {16.06, 1.03, -9.00} },
-  { card = Warrior, position = {20.00, 1.03, -9.00} },
-  { card = Hero, position = {24.00, 1.03, -9.00} },
-  { card = Champion, position = {28.00, 1.03, -9.00} },
-}
+function Page:setup (obj, position)
+  upgrades = {
+    { card = TreasureHunter, position = {16.06, 1.03, -9.00} },
+    { card = Warrior, position = {20.00, 1.03, -9.00} },
+    { card = Hero, position = {24.00, 1.03, -9.00} },
+    { card = Champion, position = {28.00, 1.03, -9.00} },
+  }
+  
+  Card:setup(obj, position)
 
-function Page:setup (obj)
-  Card:setup(obj)
-
-  for _,pageUpgrade in pairs(pageUpgrades) do
-    upgradeObj = getObjectFromGUID(pageUpgrade.card.guid)
-    clone = upgradeObj.clone({ position = pageUpgrade.position })
-    clone.setRotation({0,180,0})
-    pageUpgrade.card:setup(clone)
+  for _,upgrade in pairs(upgrades) do
+    upgradeObj = getObjectFromGUID(upgrade.card.guid)
+    upgrade.card:setup(upgradeObj, upgrade.position)
   end
 end

@@ -13,11 +13,14 @@ function Card:new (o)
   return o
 end
 
-function Card:setup (obj)
-  position = obj.getPosition()
-  deck = obj.clone({ position = {x=position.x, y=position.y + 0.1, z=position.z} })
-  for i=1,8 do
-    clone = obj.clone({ position = {x=position.x, y=position.y + (0.01*i), z=position.z} })
+function Card:setup (obj, position, numCards)
+  numCards = numCards or 10 -- Default, spawn 10 cards total
+  baseClone = obj.clone({ position = position, snap_to_grid = true })
+  baseClone.setRotation({0,180,0})
+  deck = baseClone.clone({ position = { position[1], position[2] + 1, position[3] }})
+  for i=1,numCards-2 do
+    clone = obj.clone({ position = { position[1], position[2] + 1 + (0.1*i), position[3] }})
     deck = deck.putObject(clone)
   end
+  baseClone.putObject(deck)
 end
