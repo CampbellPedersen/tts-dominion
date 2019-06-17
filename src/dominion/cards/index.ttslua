@@ -10,7 +10,7 @@
 #include courtyard
 #include crossroads
 #include encampment
--- #include haven
+#include haven
 #include lurker
 #include moat
 #include page
@@ -27,6 +27,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Courtyard,
   Crossroads,
   Encampment,
+  Haven,
   Lurker,
   Moat,
   Page,
