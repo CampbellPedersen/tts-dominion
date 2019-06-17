@@ -18,6 +18,7 @@
 #include peasant
 #include poor-house
 #include rats
+#include vagrant
 
 SUPPLY_ELIGIBLE_CARDS = {
   Beggar,
@@ -34,5 +35,6 @@ SUPPLY_ELIGIBLE_CARDS = {
   Patrician,
   Peasant,
   PoorHouse,
-  Rats
+  Rats,
+  Vagrant
 }
