@@ -1,0 +1,7 @@
+Champion = Card:new{
+  guid = "59f920",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration },
+}

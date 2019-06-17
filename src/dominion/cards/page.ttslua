@@ -1,0 +1,35 @@
+#include page-upgrades/treasure-hunter
+#include page-upgrades/warrior
+#include page-upgrades/hero
+#include page-upgrades/champion
+
+Page = Card:new{
+  guid = "33c06b",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Traveller },
+}
+
+pageUpgrades = {
+  { card = TreasureHunter, position = {16.06, 1.03, -9.00} },
+  { card = Warrior, position = {20.00, 1.03, -9.00} },
+  { card = Hero, position = {24.00, 1.03, -9.00} },
+  { card = Champion, position = {28.00, 1.03, -9.00} },
+}
+
+function Page:setup (obj)
+  position = obj.getPosition()
+  deck = obj.clone({ position = {x=position.x, y=position.y + 0.1, z=position.z} })
+  for i=1,8 do
+    clone = obj.clone({ position = {x=position.x, y=position.y + (0.01*i), z=position.z} })
+    deck = deck.putObject(clone)
+  end
+
+  for _,pageUpgrade in pairs(pageUpgrades) do
+    upgradeObj = getObjectFromGUID(pageUpgrade.card.guid)
+    clone = upgradeObj.clone({ position = pageUpgrade.position })
+    clone.setRotation({0,180,0})
+    pageUpgrade.card:setup(clone)
+  end
+end

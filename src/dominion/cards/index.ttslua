@@ -13,6 +13,7 @@
 -- #include haven
 #include lurker
 #include moat
+#include page
 #include patrician
 #include poor-house
 #include rats
@@ -27,6 +28,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Encampment,
   Lurker,
   Moat,
+  Page,
   Patrician,
   PoorHouse,
   Rats
