@@ -19,12 +19,7 @@ pageUpgrades = {
 }
 
 function Page:setup (obj)
-  position = obj.getPosition()
-  deck = obj.clone({ position = {x=position.x, y=position.y + 0.1, z=position.z} })
-  for i=1,8 do
-    clone = obj.clone({ position = {x=position.x, y=position.y + (0.01*i), z=position.z} })
-    deck = deck.putObject(clone)
-  end
+  Card:setup(obj)
 
   for _,pageUpgrade in pairs(pageUpgrades) do
     upgradeObj = getObjectFromGUID(pageUpgrade.card.guid)
