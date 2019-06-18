@@ -1,0 +1,7 @@
+Develop = Card:new{
+  guid = "7f5118",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

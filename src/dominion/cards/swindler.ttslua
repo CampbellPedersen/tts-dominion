@@ -1,0 +1,7 @@
+Swindler = Card:new{
+  guid = "64373c",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

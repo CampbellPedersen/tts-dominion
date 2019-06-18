@@ -9,22 +9,32 @@
 #include catapult
 #include cellar
 #include chapel
+#include chariot-race
 #include coin-of-the-realm
 #include courtyard
 #include crossroads
+#include develop
 #include duchess
 #include dungeon
 #include embargo
 #include encampment
+#include enchantress
+#include fishing-village
 #include fools-gold
 #include fortune-teller
 #include gear
 #include great-hall
 #include hamlet
+#include harbinger
 #include haven
 #include herbalist
+#include hermit
 #include lighthouse
+#include loan
 #include lurker
+#include masquerade
+#include masterpiece
+#include menagerie
 #include merchant
 #include moat
 #include native-village
@@ -39,15 +49,21 @@
 #include ratcatcher
 #include rats
 #include raze
+#include sage
+#include scheme
 #include secret-chamber
 #include settlers
 #include shanty-town
 #include smugglers
 #include squire
 #include stonemason
+#include swindler
+#include tunnel
+#include urchin
 #include vagrant
 #include village
 #include warehouse
+#include workshop
 
 SUPPLY_ELIGIBLE_CARDS = {
   Beggar,
@@ -56,22 +72,32 @@ SUPPLY_ELIGIBLE_CARDS = {
   Catapult,
   Cellar,
   Chapel,
+  ChariotRace,
   CoinOfTheRealm,
   Courtyard,
   Crossroads,
+  Develop,
   Duchess,
   Dungeon,
   Embargo,
   Encampment,
+  Enchantress,
+  FishingVillage,
   FoolsGold,
   FortuneTeller,
   Gear,
   GreatHall,
   Hamlet,
+  Harbinger,
   Haven,
   Herbalist,
+  Hermit,
   Lighthouse,
+  Loan,
   Lurker,
+  Masquerade,
+  Masterpiece,
+  Menagerie,
   Merchant,
   Moat,
   NativeVillage,
@@ -86,13 +112,19 @@ SUPPLY_ELIGIBLE_CARDS = {
   Ratcatcher,
   Rats,
   Raze,
+  Sage,
+  Scheme,
   SecretChamber,
   Settlers,
   ShantyTown,
   Smugglers,
   Squire,
   Stonemason,
+  Swindler,
+  Tunnel,
+  Urchin,
   Vagrant,
   Village,
   Warehouse,
+  Workshop,
 }

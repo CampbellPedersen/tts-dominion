@@ -1,0 +1,7 @@
+Enchantress = Card:new{
+  guid = "65deb7",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

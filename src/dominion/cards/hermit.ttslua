@@ -1,0 +1,13 @@
+Hermit = Card:new{
+  guid = "0921a2",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+function Hermit:setup (obj, position, numCards)
+  Card:setup(obj, position, numCards)
+  madman = getObjectFromGUID("bfcb70")
+  Card:setup(madman, {12.00, 1.03, -9.00}, numCards)
+end

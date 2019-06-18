@@ -1,0 +1,7 @@
+Sage = Card:new{
+  guid = "9829e0",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
