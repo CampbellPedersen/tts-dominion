@@ -6,6 +6,7 @@
 #include beggar
 -- #include black-market
 #include candlestick-maker
+#include catapult
 #include cellar
 #include chapel
 #include coin-of-the-realm
@@ -42,6 +43,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Beggar,
   -- BlackMarket,
   CandlestickMaker,
+  Catapult,
   Cellar,
   Chapel,
   CoinOfTheRealm,
