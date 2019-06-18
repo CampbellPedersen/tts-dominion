@@ -9,15 +9,21 @@
 #include chapel
 #include courtyard
 #include crossroads
+#include embargo
 #include encampment
+#include hamlet
 #include haven
 #include lurker
 #include moat
+#include native-village
 #include page
 #include patrician
+#include pawn
 #include peasant
 #include poor-house
 #include rats
+#include secret-chamber
+#include stonemason
 #include vagrant
 
 SUPPLY_ELIGIBLE_CARDS = {
@@ -27,14 +33,20 @@ SUPPLY_ELIGIBLE_CARDS = {
   Chapel,
   Courtyard,
   Crossroads,
+  Embargo,
   Encampment,
+  Hamlet,
   Haven,
   Lurker,
   Moat,
+  NativeVillage,
   Page,
   Patrician,
+  Pawn,
   Peasant,
   PoorHouse,
   Rats,
+  SecretChamber,
+  Stonemason,
   Vagrant
 }

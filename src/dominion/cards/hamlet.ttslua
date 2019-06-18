@@ -1,0 +1,7 @@
+Hamlet = Card:new{
+  guid = "141247",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

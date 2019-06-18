@@ -1,0 +1,16 @@
+Embargo = Card:new{
+  guid = "6352d4",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+function Embargo:setup (obj, position)
+  Card:setup(obj, position, 20)
+
+  embargoToken = getObjectFromGUID('f19e8b')
+  for i=1,10 do
+    embargoToken.clone({position = {0.00, 1.01, -21.00} })
+  end
+end

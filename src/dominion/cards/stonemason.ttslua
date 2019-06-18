@@ -1,0 +1,7 @@
+Stonemason = Card:new{
+  guid = "426fdf",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
