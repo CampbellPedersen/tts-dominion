@@ -1,0 +1,7 @@
+Gear = Card:new{
+  guid = "a6e4db",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration },
+}

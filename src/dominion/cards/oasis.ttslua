@@ -1,0 +1,7 @@
+Oasis = Card:new{
+  guid = "5db3cf",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

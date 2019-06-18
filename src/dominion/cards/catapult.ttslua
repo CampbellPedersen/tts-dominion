@@ -3,7 +3,7 @@ Catapult = Card:new{
   cost = 3,
   debt = 0,
   potion = 0,
-  types = { CardTypes.Action },
+  types = { CardTypes.Action, CardTypes.Attack },
 }
 
 function Catapult:setup (obj, position)

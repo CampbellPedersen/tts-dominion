@@ -1,0 +1,7 @@
+ShantyTown = Card:new{
+  guid = "f28b92",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

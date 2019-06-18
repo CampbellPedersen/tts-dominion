@@ -1,0 +1,7 @@
+Village = Card:new{
+  guid = "51699b",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

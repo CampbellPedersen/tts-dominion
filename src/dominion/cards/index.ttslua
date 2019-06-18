@@ -13,16 +13,23 @@
 #include courtyard
 #include crossroads
 #include duchess
+#include dungeon
 #include embargo
 #include encampment
 #include fools-gold
+#include fortune-teller
+#include gear
+#include great-hall
 #include hamlet
 #include haven
 #include herbalist
 #include lighthouse
 #include lurker
+#include merchant
 #include moat
 #include native-village
+#include oasis
+#include oracle
 #include page
 #include patrician
 #include pawn
@@ -34,10 +41,13 @@
 #include raze
 #include secret-chamber
 #include settlers
+#include shanty-town
 #include smugglers
 #include squire
 #include stonemason
 #include vagrant
+#include village
+#include warehouse
 
 SUPPLY_ELIGIBLE_CARDS = {
   Beggar,
@@ -50,16 +60,23 @@ SUPPLY_ELIGIBLE_CARDS = {
   Courtyard,
   Crossroads,
   Duchess,
+  Dungeon,
   Embargo,
   Encampment,
   FoolsGold,
+  FortuneTeller,
+  Gear,
+  GreatHall,
   Hamlet,
   Haven,
   Herbalist,
   Lighthouse,
   Lurker,
+  Merchant,
   Moat,
   NativeVillage,
+  Oasis,
+  Oracle,
   Page,
   Patrician,
   Pawn,
@@ -71,8 +88,11 @@ SUPPLY_ELIGIBLE_CARDS = {
   Raze,
   SecretChamber,
   Settlers,
+  ShantyTown,
   Smugglers,
   Squire,
   Stonemason,
-  Vagrant
+  Vagrant,
+  Village,
+  Warehouse,
 }

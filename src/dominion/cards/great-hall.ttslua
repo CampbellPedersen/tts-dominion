@@ -1,0 +1,7 @@
+GreatHall = Card:new{
+  guid = "b85913",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Victory },
+}

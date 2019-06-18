@@ -1,0 +1,7 @@
+Merchant = Card:new{
+  guid = "d8ed34",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
