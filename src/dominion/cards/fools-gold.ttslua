@@ -1,0 +1,7 @@
+FoolsGold = Card:new{
+  guid = "8f1c48",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure, CardTypes.Reaction },
+}

@@ -1,0 +1,7 @@
+PearlDiver = Card:new{
+  guid = "7d42cf",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

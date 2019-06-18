@@ -1,0 +1,7 @@
+Settlers = Card:new{
+  guid = "424cf1",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

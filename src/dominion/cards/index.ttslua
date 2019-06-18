@@ -4,49 +4,73 @@
 
 -- Cards
 #include beggar
+-- #include black-market
 #include candlestick-maker
 #include cellar
 #include chapel
+#include coin-of-the-realm
 #include courtyard
 #include crossroads
+#include duchess
 #include embargo
 #include encampment
+#include fools-gold
 #include hamlet
 #include haven
+#include herbalist
+#include lighthouse
 #include lurker
 #include moat
 #include native-village
 #include page
 #include patrician
 #include pawn
+#include pearl-diver
 #include peasant
 #include poor-house
+#include ratcatcher
 #include rats
+#include raze
 #include secret-chamber
+#include settlers
+#include smugglers
+#include squire
 #include stonemason
 #include vagrant
 
 SUPPLY_ELIGIBLE_CARDS = {
   Beggar,
+  -- BlackMarket,
   CandlestickMaker,
   Cellar,
   Chapel,
+  CoinOfTheRealm,
   Courtyard,
   Crossroads,
+  Duchess,
   Embargo,
   Encampment,
+  FoolsGold,
   Hamlet,
   Haven,
+  Herbalist,
+  Lighthouse,
   Lurker,
   Moat,
   NativeVillage,
   Page,
   Patrician,
   Pawn,
+  PearlDiver,
   Peasant,
   PoorHouse,
+  Ratcatcher,
   Rats,
+  Raze,
   SecretChamber,
+  Settlers,
+  Smugglers,
+  Squire,
   Stonemason,
   Vagrant
 }

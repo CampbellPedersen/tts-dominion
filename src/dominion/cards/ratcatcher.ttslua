@@ -1,0 +1,7 @@
+Ratcatcher = Card:new{
+  guid = "1269de",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve },
+}

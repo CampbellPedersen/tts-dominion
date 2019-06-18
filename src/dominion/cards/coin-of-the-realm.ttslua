@@ -1,0 +1,7 @@
+CoinOfTheRealm = Card:new{
+  guid = "e86267",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure, CardTypes.Reserve },
+}

@@ -1,0 +1,9 @@
+BlackMarket = Card:new{
+  guid = "baf7a0",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+-- TODO: Black Market setup. It's probably banned anyways tho so yea, maybe later.

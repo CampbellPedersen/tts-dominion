@@ -1,0 +1,7 @@
+Raze = Card:new{
+  guid = "3271b9",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

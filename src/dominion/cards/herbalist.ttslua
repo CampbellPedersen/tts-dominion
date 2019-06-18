@@ -1,0 +1,7 @@
+Herbalist = Card:new{
+  guid = "a6de0f",
+  cost = 2,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
