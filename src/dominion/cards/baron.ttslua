@@ -1,0 +1,7 @@
+Baron = Card:new{
+  guid = "04b50d",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

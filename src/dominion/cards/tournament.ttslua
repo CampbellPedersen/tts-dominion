@@ -1,0 +1,23 @@
+Tournament = Card:new{
+  guid = "37dcb2",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+function Tournament:setup (obj, position)
+  Card:setup(obj, position)
+
+  prizes = {
+    { guid = "c7de4a", position = {18.03, 1.03, 9.00}},
+    { guid = "121c66", position = {22.03, 1.03, 9.00}},
+    { guid = "ff016b", position = {26.00, 1.03, 9.00}},
+    { guid = "f2a6e8", position = {20.00, 1.03, 3.00}},
+    { guid = "a2a5cc", position = {24.00, 1.03, 3.00}},
+  }
+
+  for i,prize in pairs(prizes) do
+    Card:setup(getObjectFromGUID(prize.guid), prize.position, 1)
+  end
+end

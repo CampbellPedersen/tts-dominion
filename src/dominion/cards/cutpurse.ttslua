@@ -1,0 +1,7 @@
+Cutpurse = Card:new{
+  guid = "21e9e9",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

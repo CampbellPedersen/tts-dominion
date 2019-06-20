@@ -17,6 +17,7 @@ function Card:setup (obj, position, numCards)
   numCards = numCards or 10 -- Default, spawn 10 cards total
   baseClone = obj.clone({ position = position, snap_to_grid = true })
   baseClone.setRotation({0,180,0})
+  if (numCards < 2) then return end
   deck = baseClone.clone({ position = { position[1], position[2] + 1, position[3] }})
   for i=1,numCards-2 do
     clone = obj.clone({ position = { position[1], position[2] + 1 + (0.1*i), position[3] }})

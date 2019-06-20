@@ -1,0 +1,7 @@
+Ironmonger = Card:new{
+  guid = "3a8f1f",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

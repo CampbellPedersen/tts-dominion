@@ -3,10 +3,15 @@
 #include !/dominion/constants
 
 -- Cards
+#include advisor
 #include ambassador
+#include amulet
+#include baron
 #include beggar
+#include bishop
 -- #include black-market
 #include candlestick-maker
+#include caravan-guard
 #include catapult
 #include cellar
 #include chancellor
@@ -15,6 +20,7 @@
 #include coin-of-the-realm
 #include courtyard
 #include crossroads
+#include cutpurse
 #include develop
 #include doctor
 #include duchess
@@ -25,15 +31,18 @@
 #include farmers-market
 #include fishing-village
 #include fools-gold
+#include forager
 #include fortune-teller
 #include gear
 #include gladiator
 #include great-hall
+#include guide
 #include hamlet
 #include harbinger
 #include haven
 #include herbalist
 #include hermit
+#include ironmonger
 #include lighthouse
 #include loan
 #include lookout
@@ -63,13 +72,20 @@
 #include shanty-town
 #include smugglers
 #include squire
+#include steward
 #include stonemason
+#include storeroom
 #include swindler
+#include tournament
+-- #include trade-route
+#include trader
+#include treasure-map
 #include tunnel
 #include urchin
 #include vagrant
 #include vassal
 #include village
+#include wandering-minstrel
 #include warehouse
 #include watchtower
 #include wishing-well
@@ -77,10 +93,15 @@
 #include workshop
 
 SUPPLY_ELIGIBLE_CARDS = {
+  Advisor,
   Ambassador,
+  Amulet,
+  Baron,
   Beggar,
+  Bishop,
   -- BlackMarket,
   CandlestickMaker,
+  CaravanGuard,
   Catapult,
   Cellar,
   Chancellor,
@@ -89,6 +110,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   CoinOfTheRealm,
   Courtyard,
   Crossroads,
+  Cutpurse,
   Develop,
   Doctor,
   Duchess,
@@ -99,15 +121,18 @@ SUPPLY_ELIGIBLE_CARDS = {
   FarmersMarket,
   FishingVillage,
   FoolsGold,
+  Forager,
   FortuneTeller,
   Gear,
   Gladiator,
   GreatHall,
+  Guide,
   Hamlet,
   Harbinger,
   Haven,
   Herbalist,
   Hermit,
+  Ironmonger,
   Lighthouse,
   Loan,
   Lookout,
@@ -137,13 +162,20 @@ SUPPLY_ELIGIBLE_CARDS = {
   ShantyTown,
   Smugglers,
   Squire,
+  Steward,
   Stonemason,
+  Storeroom,
   Swindler,
+  Tournament,
+  -- TradeRoute,
+  Trader,
+  TreasureMap,
   Tunnel,
   Urchin,
   Vagrant,
   Vassal,
   Village,
+  WanderingMinstrel,
   Warehouse,
   Watchtower,
   WishingWell,

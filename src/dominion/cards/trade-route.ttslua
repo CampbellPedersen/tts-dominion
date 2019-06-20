@@ -1,0 +1,9 @@
+TradeRoute = Card:new{
+  guid = "e7f52d",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+-- TODO: Trade route setup. Hard stuff.

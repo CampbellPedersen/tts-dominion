@@ -1,0 +1,7 @@
+CaravanGuard = Card:new{
+  guid = "11efe3",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration, CardTypes.Reaction },
+}

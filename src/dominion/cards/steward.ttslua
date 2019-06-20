@@ -1,0 +1,7 @@
+Steward = Card:new{
+  guid = "889ea2",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
