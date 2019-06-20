@@ -1,0 +1,7 @@
+Ambassador = Card:new{
+  guid = "6e6a30",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

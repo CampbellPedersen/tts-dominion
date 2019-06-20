@@ -1,0 +1,7 @@
+Lookout = Card:new{
+  guid = "3e2e2c",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

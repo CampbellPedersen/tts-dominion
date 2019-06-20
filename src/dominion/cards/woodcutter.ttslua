@@ -1,0 +1,7 @@
+Woodcutter = Card:new{
+  guid = "e46fdd",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

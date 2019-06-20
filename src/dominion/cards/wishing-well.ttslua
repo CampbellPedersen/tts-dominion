@@ -1,0 +1,7 @@
+WishingWell = Card:new{
+  guid = "ac6986",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

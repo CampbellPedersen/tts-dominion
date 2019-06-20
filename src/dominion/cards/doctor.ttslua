@@ -1,0 +1,7 @@
+Doctor = Card:new{
+  guid = "d59c9b",
+  cost = 3,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

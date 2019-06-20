@@ -3,26 +3,31 @@
 #include !/dominion/constants
 
 -- Cards
+#include ambassador
 #include beggar
 -- #include black-market
 #include candlestick-maker
 #include catapult
 #include cellar
+#include chancellor
 #include chapel
 #include chariot-race
 #include coin-of-the-realm
 #include courtyard
 #include crossroads
 #include develop
+#include doctor
 #include duchess
 #include dungeon
 #include embargo
 #include encampment
 #include enchantress
+#include farmers-market
 #include fishing-village
 #include fools-gold
 #include fortune-teller
 #include gear
+#include gladiator
 #include great-hall
 #include hamlet
 #include harbinger
@@ -31,7 +36,9 @@
 #include hermit
 #include lighthouse
 #include loan
+#include lookout
 #include lurker
+#include market-square
 #include masquerade
 #include masterpiece
 #include menagerie
@@ -61,31 +68,40 @@
 #include tunnel
 #include urchin
 #include vagrant
+#include vassal
 #include village
 #include warehouse
+#include watchtower
+#include wishing-well
+#include woodcutter
 #include workshop
 
 SUPPLY_ELIGIBLE_CARDS = {
+  Ambassador,
   Beggar,
   -- BlackMarket,
   CandlestickMaker,
   Catapult,
   Cellar,
+  Chancellor,
   Chapel,
   ChariotRace,
   CoinOfTheRealm,
   Courtyard,
   Crossroads,
   Develop,
+  Doctor,
   Duchess,
   Dungeon,
   Embargo,
   Encampment,
   Enchantress,
+  FarmersMarket,
   FishingVillage,
   FoolsGold,
   FortuneTeller,
   Gear,
+  Gladiator,
   GreatHall,
   Hamlet,
   Harbinger,
@@ -94,7 +110,9 @@ SUPPLY_ELIGIBLE_CARDS = {
   Hermit,
   Lighthouse,
   Loan,
+  Lookout,
   Lurker,
+  MarketSquare,
   Masquerade,
   Masterpiece,
   Menagerie,
@@ -124,7 +142,11 @@ SUPPLY_ELIGIBLE_CARDS = {
   Tunnel,
   Urchin,
   Vagrant,
+  Vassal,
   Village,
   Warehouse,
+  Watchtower,
+  WishingWell,
+  Woodcutter,
   Workshop,
 }
