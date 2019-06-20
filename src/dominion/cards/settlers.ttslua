@@ -5,3 +5,9 @@ Settlers = Card:new{
   potion = 0,
   types = { CardTypes.Action },
 }
+
+function Settlers:setup(obj, position)
+  bustlingVillageObj = getObjectFromGUID("73ea2b")
+  Card:setup(bustlingVillageObj, position, 5)
+  Card:setup(obj, position, 5)
+end

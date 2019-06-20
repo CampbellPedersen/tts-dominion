@@ -5,3 +5,9 @@ Encampment = Card:new{
   potion = 0,
   types = { CardTypes.Action },
 }
+
+function Encampment:setup(obj, position)
+  plunderObj = getObjectFromGUID("02fe69")
+  Card:setup(plunderObj, position, 5)
+  Card:setup(obj, position, 5)
+end
