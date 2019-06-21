@@ -6,7 +6,7 @@ Patrician = Card:new{
   types = { CardTypes.Action },
 }
 
-function Encampment:setup(obj, position)
+function Patrician:setup(obj, position)
   emporiumObj = getObjectFromGUID("647b51")
   Card:setup(emporiumObj, position, 5)
   Card:setup(obj, position, 5)
