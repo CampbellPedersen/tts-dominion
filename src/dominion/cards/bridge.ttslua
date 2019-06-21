@@ -1,0 +1,7 @@
+Bridge = Card:new{
+  guid = "22dff0",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

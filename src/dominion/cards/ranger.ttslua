@@ -1,0 +1,9 @@
+Ranger = Card:new{
+  guid = "5703db",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+-- TODO: Journey Token

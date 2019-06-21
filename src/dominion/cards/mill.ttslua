@@ -1,0 +1,11 @@
+Mill = Card:new{
+  guid = "b2b89e",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Victory },
+}
+
+function Mill:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

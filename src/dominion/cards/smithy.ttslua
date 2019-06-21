@@ -1,0 +1,7 @@
+Smithy = Card:new{
+  guid = "4e8b66",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

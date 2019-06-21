@@ -1,0 +1,7 @@
+Talisman = Card:new{
+  guid = "7baf0f",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

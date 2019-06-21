@@ -1,0 +1,11 @@
+Island = Card:new{
+  guid = "d09ddf",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Victory },
+}
+
+function Island:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

@@ -1,0 +1,7 @@
+Remodel = Card:new{
+  guid = "4618ef",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

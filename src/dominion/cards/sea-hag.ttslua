@@ -1,0 +1,7 @@
+SeaHag = Card:new{
+  guid = "57dd86",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

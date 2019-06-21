@@ -1,0 +1,7 @@
+NomadCamp = Card:new{
+  guid = "6b0bb0",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

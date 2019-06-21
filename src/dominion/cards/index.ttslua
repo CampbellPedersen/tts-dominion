@@ -6,33 +6,43 @@
 #include advisor
 #include ambassador
 #include amulet
+#include armory
 #include baron
 #include beggar
 #include bishop
 -- #include black-market
+#include bridge
 #include candlestick-maker
 #include caravan-guard
+#include caravan
 #include catapult
 #include cellar
 #include chancellor
 #include chapel
 #include chariot-race
 #include coin-of-the-realm
+#include conspirator
+#include coppersmith
 #include courtyard
 #include crossroads
 #include cutpurse
 #include develop
+#include diplomat
 #include doctor
 #include duchess
 #include dungeon
 #include embargo
 #include encampment
 #include enchantress
+#include envoy
 #include farmers-market
+#include farming-village
 #include fishing-village
 #include fools-gold
 #include forager
+#include fortress
 #include fortune-teller
+#include gardens
 #include gear
 #include gladiator
 #include great-hall
@@ -43,6 +53,8 @@
 #include herbalist
 #include hermit
 #include ironmonger
+#include island
+#include jack-of-all-trades
 #include lighthouse
 #include loan
 #include lookout
@@ -52,8 +64,17 @@
 #include masterpiece
 #include menagerie
 #include merchant
+#include messenger
+#include militia
+#include mill
+#include mining-village
 #include moat
+#include moneylender
+#include monument
 #include native-village
+#include navigator
+#include noble-brigand
+#include nomad-camp
 #include oasis
 #include oracle
 #include page
@@ -61,68 +82,101 @@
 #include pawn
 #include pearl-diver
 #include peasant
+#include pirate-ship
+#include plaza
+#include poacher
 #include poor-house
+#include procession
+#include quarry
+#include ranger
 #include ratcatcher
 #include rats
 #include raze
+#include remake
+#include remodel
+#include sacrifice
 #include sage
+#include scavenger
 #include scheme
+#include scout
+#include sea-hag
 #include secret-chamber
 #include settlers
 #include shanty-town
+#include silk-road
+#include smithy
 #include smugglers
+#include spice-merchant
+#include spy
 #include squire
 #include steward
 #include stonemason
 #include storeroom
 #include swindler
+#include talisman
+#include taxman
+#include temple
 #include tournament
 -- #include trade-route
 #include trader
+#include transmogrify
 #include treasure-map
 #include tunnel
 #include urchin
 #include vagrant
 #include vassal
+#include villa
 #include village
+#include walled-village
 #include wandering-minstrel
 #include warehouse
 #include watchtower
 #include wishing-well
 #include woodcutter
+#include workers-village
 #include workshop
 
 SUPPLY_ELIGIBLE_CARDS = {
   Advisor,
   Ambassador,
   Amulet,
+  Armory,
   Baron,
   Beggar,
   Bishop,
   -- BlackMarket,
+  Bridge,
   CandlestickMaker,
   CaravanGuard,
+  Caravan,
   Catapult,
   Cellar,
   Chancellor,
   Chapel,
   ChariotRace,
   CoinOfTheRealm,
+  Conspirator,
+  Coppersmith,
   Courtyard,
   Crossroads,
   Cutpurse,
   Develop,
+  Diplomat,
   Doctor,
   Duchess,
   Dungeon,
   Embargo,
   Encampment,
   Enchantress,
+  Envoy,
   FarmersMarket,
+  FarmingVillage,
   FishingVillage,
   FoolsGold,
   Forager,
+  Fortress,
   FortuneTeller,
+  Gardens,
   Gear,
   Gladiator,
   GreatHall,
@@ -133,6 +187,8 @@ SUPPLY_ELIGIBLE_CARDS = {
   Herbalist,
   Hermit,
   Ironmonger,
+  Island,
+  JackOfAllTrades,
   Lighthouse,
   Loan,
   Lookout,
@@ -142,8 +198,17 @@ SUPPLY_ELIGIBLE_CARDS = {
   Masterpiece,
   Menagerie,
   Merchant,
+  Messenger,
+  Militia,
+  Mill,
+  MiningVillage,
   Moat,
+  Moneylender,
+  Monument,
   NativeVillage,
+  Navigator,
+  NobleBrigand,
+  NomadCamp,
   Oasis,
   Oracle,
   Page,
@@ -151,34 +216,57 @@ SUPPLY_ELIGIBLE_CARDS = {
   Pawn,
   PearlDiver,
   Peasant,
+  PirateShip,
+  Plaza,
+  Poacher,
   PoorHouse,
+  Procession,
+  Quarry,
+  Ranger,
   Ratcatcher,
   Rats,
   Raze,
+  Remake,
+  Remodel,
+  Sacrifice,
   Sage,
+  Scavenger,
   Scheme,
+  Scout,
+  SeaHag,
   SecretChamber,
   Settlers,
   ShantyTown,
+  SilkRoad,
+  Smithy,
   Smugglers,
+  SpiceMerchant,
+  Spy,
   Squire,
   Steward,
   Stonemason,
   Storeroom,
   Swindler,
+  Talisman,
+  Taxman,
+  Temple,
   Tournament,
   -- TradeRoute,
   Trader,
+  Transmogrify,
   TreasureMap,
   Tunnel,
   Urchin,
   Vagrant,
   Vassal,
+  Villa,
   Village,
+  WalledVillage,
   WanderingMinstrel,
   Warehouse,
   Watchtower,
   WishingWell,
   Woodcutter,
+  WorkersVillage,
   Workshop,
 }

@@ -1,0 +1,11 @@
+Gardens = Card:new{
+  guid = "eee9dd",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Victory },
+}
+
+function Gardens:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

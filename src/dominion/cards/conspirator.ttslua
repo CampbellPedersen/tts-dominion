@@ -1,0 +1,7 @@
+Conspirator = Card:new{
+  guid = "d08fe5",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

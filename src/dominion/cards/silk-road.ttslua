@@ -1,0 +1,11 @@
+SilkRoad = Card:new{
+  guid = "ea6291",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function SilkRoad:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

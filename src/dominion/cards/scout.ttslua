@@ -1,0 +1,7 @@
+Scout = Card:new{
+  guid = "0ae715",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

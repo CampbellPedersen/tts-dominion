@@ -1,0 +1,7 @@
+Remake = Card:new{
+  guid = "d9447b",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

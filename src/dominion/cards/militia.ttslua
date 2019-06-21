@@ -1,0 +1,7 @@
+Militia = Card:new{
+  guid = "d1f2c4",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

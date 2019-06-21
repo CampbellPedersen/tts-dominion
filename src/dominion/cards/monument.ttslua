@@ -1,0 +1,7 @@
+Monument = Card:new{
+  guid = "0425a3",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

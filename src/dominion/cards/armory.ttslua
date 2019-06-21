@@ -1,0 +1,7 @@
+Armory = Card:new{
+  guid = "d50c3a",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

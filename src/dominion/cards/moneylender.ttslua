@@ -1,0 +1,7 @@
+Moneylender = Card:new{
+  guid = "b3ea57",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

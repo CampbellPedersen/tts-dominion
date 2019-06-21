@@ -1,0 +1,7 @@
+Diplomat = Card:new{
+  guid = "52417f",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reaction },
+}

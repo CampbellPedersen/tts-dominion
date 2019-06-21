@@ -1,0 +1,7 @@
+Scavenger = Card:new{
+  guid = "d5dcc3",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

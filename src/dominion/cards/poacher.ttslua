@@ -1,0 +1,7 @@
+Poacher = Card:new{
+  guid = "b4162d",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

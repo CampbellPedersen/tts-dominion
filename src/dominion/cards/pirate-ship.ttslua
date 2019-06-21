@@ -1,0 +1,7 @@
+PirateShip = Card:new{
+  guid = "ff6715",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

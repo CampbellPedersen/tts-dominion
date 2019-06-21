@@ -1,0 +1,7 @@
+Messenger = Card:new{
+  guid = "2a51be",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
