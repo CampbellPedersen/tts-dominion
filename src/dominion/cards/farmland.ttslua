@@ -1,0 +1,11 @@
+Farmland = Card:new{
+  guid = "77b2a0",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function Farmland:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

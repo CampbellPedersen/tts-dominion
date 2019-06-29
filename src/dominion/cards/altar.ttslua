@@ -1,0 +1,7 @@
+Altar = Card:new{
+  guid = "c09966",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

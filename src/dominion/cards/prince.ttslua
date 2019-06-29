@@ -1,0 +1,7 @@
+Prince = Card:new{
+  guid = "181950",
+  cost = 8,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

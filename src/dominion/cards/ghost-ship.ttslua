@@ -1,0 +1,7 @@
+GhostShip = Card:new{
+  guid = "58c592",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

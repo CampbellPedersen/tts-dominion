@@ -1,0 +1,7 @@
+GrandMarket = Card:new{
+  guid = "976cbb",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

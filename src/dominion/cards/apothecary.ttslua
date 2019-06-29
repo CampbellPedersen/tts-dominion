@@ -1,0 +1,7 @@
+Apothecary = Card:new{
+  guid = "6a7bc8",
+  cost = 2,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

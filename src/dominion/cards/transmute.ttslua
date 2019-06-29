@@ -1,0 +1,7 @@
+Transmute = Card:new{
+  guid = "046beb",
+  cost = 0,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

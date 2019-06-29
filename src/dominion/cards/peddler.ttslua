@@ -1,0 +1,7 @@
+Peddler = Card:new{
+  guid = "7a7cb5",
+  cost = 8,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

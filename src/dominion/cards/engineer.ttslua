@@ -1,0 +1,7 @@
+Engineer = Card:new{
+  guid = "6768e5",
+  cost = 0,
+  debt = 4,
+  potion = 0,
+  types = { CardTypes.Action },
+}

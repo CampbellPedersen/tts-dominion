@@ -1,0 +1,7 @@
+University = Card:new{
+  guid = "3d920e",
+  cost = 2,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Goons = Card:new{
+  guid = "75a178",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

@@ -1,0 +1,7 @@
+Hireling = Card:new{
+  guid = "1a2d34",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration },
+}

@@ -1,0 +1,7 @@
+Possession = Card:new{
+  guid = "4199c0",
+  cost = 6,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

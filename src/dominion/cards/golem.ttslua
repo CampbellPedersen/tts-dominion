@@ -1,0 +1,7 @@
+Golem = Card:new{
+  guid = "c4f223",
+  cost = 4,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

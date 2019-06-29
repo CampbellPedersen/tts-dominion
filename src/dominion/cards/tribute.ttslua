@@ -1,0 +1,7 @@
+Tribute = Card:new{
+  guid = "8af6d8",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

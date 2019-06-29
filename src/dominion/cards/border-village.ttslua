@@ -1,0 +1,7 @@
+BorderVillage = Card:new{
+  guid = "149c53",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

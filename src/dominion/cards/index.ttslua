@@ -3,24 +3,34 @@
 #include !/dominion/constants
 
 -- Cards
+#include adventurer
 #include advisor
+#include alchemist
+#include altar
 #include ambassador
 #include amulet
+#include apothecary
 #include apprentice
 #include archive
 #include armory
+#include artificer
+#include artisan
 #include baker
 #include band-of-misfits
 #include bandit-camp
 #include bandit
+#include bank
 #include baron
+#include bazaar
 #include beggar
 #include bishop
 -- #include black-market
+#include border-village
 #include bridge-troll
 #include bridge
 #include bureaucrat
 #include butcher
+#include cache
 #include candlestick-maker
 #include capital
 #include caravan-guard
@@ -33,11 +43,13 @@
 #include chapel
 #include chariot-race
 #include charm
+#include city-quarter
 #include city
 #include coin-of-the-realm
 #include conspirator
 #include contraband
 #include coppersmith
+#include council-room
 #include count
 #include counterfeit
 #include counting-house
@@ -53,29 +65,40 @@
 #include distant-lands
 #include doctor
 #include duchess
+#include duke
 #include dungeon
 #include duplicate
 #include embargo
 #include embassy
 #include encampment
 #include enchantress
+#include engineer
 #include envoy
+#include expand
 #include explorer
+#include fairgrounds
+#include familiar
 #include farmers-market
 #include farming-village
+#include farmland
 #include feast
 #include feodum
 #include festival
 #include fishing-village
 #include fools-gold
 #include forager
+#include forge
 #include fortress
 #include fortune-teller
 #include gardens
 #include gear
+#include ghost-ship
 #include giant
 #include gladiator
+#include golem
+#include goons
 #include governer
+#include grand-market
 #include graverobber
 #include great-hall
 #include groundskeeper
@@ -83,6 +106,7 @@
 #include hamlet
 #include haggler
 #include harbinger
+#include harem
 #include harvest
 #include haunted-woods
 #include haven
@@ -90,21 +114,29 @@
 #include herbalist
 #include hermit
 #include highway
+#include hireling
+#include hoard
 #include horn-of-plenty
 #include horse-traders
+#include hunting-party
 #include ill-gotten-gains
+#include inn
 #include ironmonger
 #include ironworks
 #include island
 #include jack-of-all-trades
 #include jester
+#include journeyman
 #include junk-dealer
+#include kings-court
+#include knights
 #include laboratory
 #include legionary
 #include library
 #include lighthouse
 #include loan
 #include lookout
+#include lost-city
 #include lurker
 #include magpie
 #include mandarin
@@ -121,6 +153,7 @@
 #include messenger
 #include militia
 #include mill
+#include mine
 #include mining-village
 #include minion
 #include mint
@@ -129,23 +162,33 @@
 #include moneylender
 #include monument
 #include mountebank
+#include mystic
 #include native-village
 #include navigator
 #include noble-brigand
+#include nobles
 #include nomad-camp
 #include oasis
 #include oracle
+#include outpost
+#include overlord
 #include page
 #include patrician
+#include patrol
 #include pawn
 #include pearl-diver
 #include peasant
+#include peddler
+#include philosophers-stone
 #include pillage
 #include pirate-ship
+#include platinum
 #include plaza
 #include poacher
 #include poor-house
 #include port
+-- #include possession
+#include prince
 #include procession
 #include quarry
 #include rabble
@@ -158,6 +201,9 @@
 #include remake
 #include remodel
 #include replace
+#include rogue
+#include royal-blacksmith
+#include royal-carriage
 #include royal-seal
 #include saboteur
 #include sacrifice
@@ -166,6 +212,7 @@
 #include scavenger
 #include scheme
 #include scout
+#include scrying-pool
 #include sea-hag
 #include secret-chamber
 #include sentry
@@ -194,14 +241,17 @@
 #include throne-room
 #include torturer
 #include tournament
--- #include trade-route
+#include trade-route
 #include trader
 #include trading-post
 #include transmogrify
+#include transmute
 #include treasure-map
 #include treasure-trove
 #include treasury
+#include tribute
 #include tunnel
+#include university
 #include upgrade
 #include urchin
 #include vagrant
@@ -210,12 +260,14 @@
 #include venture
 #include villa
 #include village
+#include vineyard
 #include walled-village
 #include wandering-minstrel
 #include warehouse
 #include watchtower
 #include wharf
 #include wild-hunt
+#include wine-merchant
 #include wishing-well
 #include witch
 #include woodcutter
@@ -224,24 +276,34 @@
 #include young-witch
 
 SUPPLY_ELIGIBLE_CARDS = {
+  Adventurer,
   Advisor,
+  Alchemist,
+  Altar,
   Ambassador,
   Amulet,
+  Apothecary,
   Apprentice,
   Archive,
   Armory,
+  Artificer,
+  Artisan,
   Baker,
   BandOfMisfits,
   BanditCamp,
   Bandit,
+  Bank,
   Baron,
+  Bazaar,
   Beggar,
   Bishop,
   -- BlackMarket,
+  BorderVillage,
   BridgeTroll,
   Bridge,
   Bureaucrat,
   Butcher,
+  Cache,
   CandlestickMaker,
   Capital,
   CaravanGuard,
@@ -254,6 +316,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Chapel,
   ChariotRace,
   Charm,
+  CityQuarter,
   City,
   CoinOfTheRealm,
   Conspirator,
@@ -274,30 +337,41 @@ SUPPLY_ELIGIBLE_CARDS = {
   DistantLands,
   Doctor,
   Duchess,
+  Duke,
   Dungeon,
   Duplicate,
   Embargo,
   Embassy,
   Encampment,
   Enchantress,
+  Engineer,
   Envoy,
+  Expand,
   Explorer,
+  Fairgrounds,
+  Familiar,
   FarmersMarket,
   FarmingVillage,
+  Farmland,
   Feast,
   Feodum,
   Festival,
   FishingVillage,
   FoolsGold,
   Forager,
+  Forge,
   Fortress,
   FortuneTeller,
   Forum,
   Gardens,
   Gear,
+  GhostShip,
   Giant,
   Gladiator,
+  Golem,
+  Goons,
   Governer,
+  GrandMarket,
   Graverobber,
   GreatHall,
   Groundskeeper,
@@ -305,6 +379,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Haggler,
   Hamlet,
   Harbinger,
+  Harem,
   Harvest,
   HauntedWoods,
   Haven,
@@ -312,21 +387,29 @@ SUPPLY_ELIGIBLE_CARDS = {
   Herbalist,
   Hermit,
   Highway,
+  Hireling,
+  Hoard,
   HornOfPlenty,
   HorseTraders,
+  HuntingParty,
   IllGottenGains,
+  Inn,
   Ironmonger,
   Ironworks,
   Island,
   JackOfAllTrades,
   Jester,
+  Journeyman,
   JunkDealer,
+  KingsCourt,
+  Knights,
   Laboratory,
   Legionary,
   Library,
   Lighthouse,
   Loan,
   Lookout,
+  LostCity,
   Lurker,
   Magpie,
   Mandarin,
@@ -343,6 +426,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Messenger,
   Militia,
   Mill,
+  Mine,
   MiningVillage,
   Minion,
   Mint,
@@ -351,23 +435,33 @@ SUPPLY_ELIGIBLE_CARDS = {
   Moneylender,
   Monument,
   Mountebank,
+  Mystic,
   NativeVillage,
   Navigator,
   NobleBrigand,
+  Nobles,
   NomadCamp,
   Oasis,
   Oracle,
+  Outpost,
+  Overlord,
   Page,
   Patrician,
+  Patrol,
   Pawn,
   PearlDiver,
   Peasant,
+  Peddler,
+  PhilosopherStone,
   Pillage,
   PirateShip,
+  Platinum,
   Plaza,
   Poacher,
   PoorHouse,
   Port,
+  Possession,
+  Prince,
   Procession,
   Quarry,
   Rabble,
@@ -380,6 +474,9 @@ SUPPLY_ELIGIBLE_CARDS = {
   Remake,
   Remodel,
   Replace,
+  Rogue,
+  RoyalBlacksmith,
+  RoyalCarriage,
   RoyalSeal,
   Saboteur,
   Sacrifice,
@@ -388,6 +485,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Scavenger,
   Scheme,
   Scout,
+  ScryingPool,
   SeaHag,
   SecretChamber,
   Sentry,
@@ -416,14 +514,17 @@ SUPPLY_ELIGIBLE_CARDS = {
   ThroneRoom,
   Torturer,
   Tournament,
-  -- TradeRoute,
+  TradeRoute,
   Trader,
   TradingPost,
   Transmogrify,
+  Transmute,
   TreasureMap,
   TreasureTrove,
   Treasury,
+  Tribute,
   Tunnel,
+  University,
   Upgrade,
   Urchin,
   Vagrant,
@@ -432,12 +533,14 @@ SUPPLY_ELIGIBLE_CARDS = {
   Venture,
   Villa,
   Village,
+  Vineyard,
   WalledVillage,
   WanderingMinstrel,
   Warehouse,
   Watchtower,
   Wharf,
   WildHunt,
+  WineMerchant,
   WishingWell,
   Witch,
   Woodcutter,

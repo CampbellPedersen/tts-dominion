@@ -1,0 +1,7 @@
+Adventurer = Card:new{
+  guid = "3c6b3f",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

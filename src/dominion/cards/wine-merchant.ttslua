@@ -1,0 +1,7 @@
+WineMerchant = Card:new{
+  guid = "43b589",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve },
+}

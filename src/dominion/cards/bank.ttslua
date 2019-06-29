@@ -1,0 +1,7 @@
+Bank = Card:new{
+  guid = "7e5512",
+  cost = 7,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

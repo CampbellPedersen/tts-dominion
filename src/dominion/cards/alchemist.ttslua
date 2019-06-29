@@ -1,0 +1,7 @@
+Alchemist = Card:new{
+  guid = "c3bf32",
+  cost = 3,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action },
+}

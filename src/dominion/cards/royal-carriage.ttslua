@@ -1,0 +1,7 @@
+RoyalCarriage = Card:new{
+  guid = "034545",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve },
+}

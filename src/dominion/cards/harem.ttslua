@@ -1,0 +1,11 @@
+Harem = Card:new{
+  guid = "54d110",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory, CardTypes.Treasure },
+}
+
+function Harem:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

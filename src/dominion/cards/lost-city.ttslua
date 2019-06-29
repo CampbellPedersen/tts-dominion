@@ -1,0 +1,7 @@
+LostCity = Card:new{
+  guid = "8fa2c8",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,11 @@
+Fairgrounds = Card:new{
+  guid = "df2193",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function Fairgrounds:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

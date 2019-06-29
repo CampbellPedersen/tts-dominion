@@ -1,0 +1,7 @@
+RoyalBlacksmith = Card:new{
+  guid = "73dfe9",
+  cost = 0,
+  debt = 8,
+  potion = 0,
+  types = { CardTypes.Action },
+}

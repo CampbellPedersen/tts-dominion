@@ -1,0 +1,7 @@
+Expand = Card:new{
+  guid = "44fc60",
+  cost = 7,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

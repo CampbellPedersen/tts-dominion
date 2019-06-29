@@ -1,0 +1,7 @@
+ScryingPool = Card:new{
+  guid = "702981",
+  cost = 2,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

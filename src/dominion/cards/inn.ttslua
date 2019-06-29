@@ -1,0 +1,7 @@
+Inn = Card:new{
+  guid = "84cb8b",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

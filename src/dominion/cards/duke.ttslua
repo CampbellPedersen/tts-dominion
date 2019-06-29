@@ -1,0 +1,11 @@
+Duke = Card:new{
+  guid = "bbf968",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function Duke:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

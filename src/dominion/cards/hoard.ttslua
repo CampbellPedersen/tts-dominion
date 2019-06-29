@@ -1,0 +1,7 @@
+Hoard = Card:new{
+  guid = "f7e26d",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

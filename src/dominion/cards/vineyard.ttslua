@@ -1,0 +1,11 @@
+Vineyard = Card:new{
+  guid = "a0265c",
+  cost = 0,
+  debt = 0,
+  potion = 1,
+  types = { CardTypes.Victory },
+}
+
+function Vineyard:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

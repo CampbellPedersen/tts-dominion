@@ -1,0 +1,11 @@
+Nobles = Card:new{
+  guid = "03f668",
+  cost = 6,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory, CardTypes.Action },
+}
+
+function Nobles:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

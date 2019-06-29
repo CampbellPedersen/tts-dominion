@@ -1,0 +1,7 @@
+Platinum = Card:new{
+  guid = "c34e1d",
+  cost = 9,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}
