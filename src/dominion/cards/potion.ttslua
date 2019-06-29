@@ -6,7 +6,7 @@ Potion = Card:new{
   types = { CardTypes.Treasure },
 }
 
-function Potion:setup () {
+function Potion:setup ()
   obj = getObjectFromGUID(Potion.guid)
   Card:setup(obj, {-10.00, 1.03, 3.00}, 20)
-}
+end

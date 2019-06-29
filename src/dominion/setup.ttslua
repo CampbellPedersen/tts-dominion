@@ -16,8 +16,16 @@ supplyPositions = {
 }
 
 function setup()
+  -- Selection
   selectedCards = arrayRandomUnique(SUPPLY_ELIGIBLE_CARDS, 10)
   sortedCards = arraySortTables(selectedCards, "cost")
+
+  -- Additional Setup
+  if (#arrayFilter(selectedCards, function(card) return card.potion > 0 end) > 0) then
+    Potion:setup()
+  end
+
+  -- Placement
   for index,card in pairs(sortedCards) do
     obj = getObjectFromGUID(card.guid)
     card:setup(obj, supplyPositions[index])

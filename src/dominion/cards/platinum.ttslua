@@ -8,5 +8,5 @@ Platinum = Card:new{
 
 function Platinum:setup (obj)
   Card:setup(obj, {10.00, 1.03, 3.00}, 12)
-  Colony:setup(getObjectFromGUID(Colony.guid))
+  Colony:setup()
 end

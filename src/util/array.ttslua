@@ -56,6 +56,16 @@ function arrayRandomUnique(a, numElements)
   return pickedElements
 end
 
+function arrayFilter(t, func)
+  local out = {}
+
+  for k, v in pairs(t) do
+    if func(v, k, t) then table.insert(out,v) end
+  end
+
+  return out
+end
+
 function arrayPrint(a)
   print(table.concat(a, ", "))
 end
