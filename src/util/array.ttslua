@@ -44,7 +44,6 @@ function arrayMerge(a1, a2)
 end
 
 function arrayRandomUnique(a, numElements)
-  math.randomseed(os.time())
   pickedIndexes= {}
   pickedElements= {}
   for i=1,numElements do
