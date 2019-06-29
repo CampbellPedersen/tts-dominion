@@ -1,0 +1,7 @@
+HornOfPlenty = Card:new{
+  guid = "a58adc",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

@@ -1,0 +1,7 @@
+Festival = Card:new{
+  guid = "9d05d0",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

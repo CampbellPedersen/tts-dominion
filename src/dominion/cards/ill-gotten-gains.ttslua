@@ -1,0 +1,7 @@
+IllGottenGains = Card:new{
+  guid = "a313eb",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

@@ -1,0 +1,7 @@
+Legionary = Card:new{
+  guid = "45b993",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

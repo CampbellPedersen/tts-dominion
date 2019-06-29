@@ -1,0 +1,7 @@
+Explorer = Card:new{
+  guid = "d3e47f",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

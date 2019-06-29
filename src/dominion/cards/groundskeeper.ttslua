@@ -1,0 +1,7 @@
+Groundskeeper = Card:new{
+  guid = "f78940",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

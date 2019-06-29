@@ -1,0 +1,7 @@
+Library = Card:new{
+  guid = "e76cae",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Mint = Card:new{
+  guid = "8b5513",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

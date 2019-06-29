@@ -1,0 +1,7 @@
+MerchantShip = Card:new{
+  guid = "a1cbc2",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration },
+}

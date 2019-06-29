@@ -1,0 +1,7 @@
+JunkDealer = Card:new{
+  guid = "3ce25c",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

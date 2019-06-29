@@ -1,0 +1,7 @@
+Margrave = Card:new{
+  guid = "f3c4df",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

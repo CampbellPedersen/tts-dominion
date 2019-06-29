@@ -1,0 +1,7 @@
+Storyteller = Card:new{
+  guid = "e96487",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

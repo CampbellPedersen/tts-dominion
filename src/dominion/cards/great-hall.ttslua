@@ -5,3 +5,7 @@ GreatHall = Card:new{
   potion = 0,
   types = { CardTypes.Action, CardTypes.Victory },
 }
+
+function GreatHall:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

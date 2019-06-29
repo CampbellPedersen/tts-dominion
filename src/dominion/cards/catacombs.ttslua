@@ -1,0 +1,7 @@
+Catacombs = Card:new{
+  guid = "8f1a1f",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

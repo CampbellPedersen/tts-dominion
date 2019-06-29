@@ -1,0 +1,7 @@
+Haggler = Card:new{
+  guid = "e4bf11",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

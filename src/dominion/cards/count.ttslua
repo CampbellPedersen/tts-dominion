@@ -1,0 +1,7 @@
+Count = Card:new{
+  guid = "413b29",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Rabble = Card:new{
+  guid = "831421",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

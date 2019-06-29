@@ -1,0 +1,7 @@
+TradingPost = Card:new{
+  guid = "bd4c3c",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

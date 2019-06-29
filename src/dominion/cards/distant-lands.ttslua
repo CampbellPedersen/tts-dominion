@@ -1,0 +1,11 @@
+DistantLands = Card:new{
+  guid = "f34f42",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve, CardTypes.Victory },
+}
+
+function DistantLands:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

@@ -1,0 +1,7 @@
+Rebuild = Card:new{
+  guid = "72d40c",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

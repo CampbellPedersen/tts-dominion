@@ -1,0 +1,7 @@
+Relic = Card:new{
+  guid = "3ac539",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure, CardTypes.Attack },
+}

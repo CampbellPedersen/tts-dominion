@@ -1,0 +1,7 @@
+HauntedWoods = Card:new{
+  guid = "a81175",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack, CardTypes.Duration },
+}

@@ -1,0 +1,7 @@
+Charm = Card:new{
+  guid = "3d54b5",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

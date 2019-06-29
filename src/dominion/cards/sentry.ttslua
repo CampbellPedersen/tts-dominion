@@ -1,0 +1,7 @@
+Sentry = Card:new{
+  guid = "f23d17",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

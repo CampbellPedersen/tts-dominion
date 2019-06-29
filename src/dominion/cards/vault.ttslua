@@ -1,0 +1,7 @@
+Vault = Card:new{
+  guid = "00ebcf",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

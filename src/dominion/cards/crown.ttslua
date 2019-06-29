@@ -1,0 +1,7 @@
+Crown = Card:new{
+  guid = "32e0d3",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Treasure },
+}

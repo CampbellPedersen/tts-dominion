@@ -1,0 +1,7 @@
+Graverobber = Card:new{
+  guid = "d681fa",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

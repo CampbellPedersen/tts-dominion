@@ -1,0 +1,7 @@
+Torturer = Card:new{
+  guid = "fda902",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

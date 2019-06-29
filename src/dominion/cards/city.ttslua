@@ -1,0 +1,7 @@
+City = Card:new{
+  guid = "628251",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

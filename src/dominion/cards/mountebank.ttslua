@@ -1,0 +1,7 @@
+Mountebank = Card:new{
+  guid = "659bfc",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

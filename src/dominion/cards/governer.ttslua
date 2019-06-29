@@ -1,0 +1,7 @@
+Governer = Card:new{
+  guid = "76bc0e",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
