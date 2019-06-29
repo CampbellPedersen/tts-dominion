@@ -45,6 +45,7 @@
 #include charm
 #include city-quarter
 #include city
+#include colony
 #include coin-of-the-realm
 #include conspirator
 #include contraband
@@ -96,7 +97,7 @@
 #include giant
 #include gladiator
 #include golem
-#include goons
+-- #include goons
 #include governer
 #include grand-market
 #include graverobber
@@ -369,7 +370,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Giant,
   Gladiator,
   Golem,
-  Goons,
+  -- Goons,
   Governer,
   GrandMarket,
   Graverobber,
@@ -452,7 +453,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   PearlDiver,
   Peasant,
   Peddler,
-  PhilosopherStone,
+  PhilosophersStone,
   Pillage,
   PirateShip,
   Platinum,
@@ -460,7 +461,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Poacher,
   PoorHouse,
   Port,
-  Possession,
+  -- Possession,
   Prince,
   Procession,
   Quarry,

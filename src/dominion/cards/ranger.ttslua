@@ -5,5 +5,3 @@ Ranger = Card:new{
   potion = 0,
   types = { CardTypes.Action },
 }
-
--- TODO: Journey Token

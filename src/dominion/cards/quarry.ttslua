@@ -1,4 +1,4 @@
-Temple = Card:new{
+Quarry = Card:new{
   guid = "152773",
   cost = 4,
   debt = 0,
