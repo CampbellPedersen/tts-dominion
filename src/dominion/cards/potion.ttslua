@@ -1,0 +1,12 @@
+Potion = Card:new{
+  guid = "22a309",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}
+
+function Potion:setup () {
+  obj = getObjectFromGUID(Potion.guid)
+  Card:setup(obj, {-10.00, 1.03, 3.00}, 20)
+}

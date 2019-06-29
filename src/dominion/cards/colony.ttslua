@@ -6,6 +6,7 @@ Colony = Card:new{
   types = { CardTypes.Victory },
 }
 
-function Colony:setup (obj)
+function Colony:setup ()
+  obj = getObjectFromGUID(Colony.guid)
   Card:setup(obj, {10.00, 1.03, 9.00}, 8)
 end
