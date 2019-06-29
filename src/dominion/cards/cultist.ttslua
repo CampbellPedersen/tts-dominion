@@ -1,0 +1,7 @@
+Cultist = Card:new{
+  guid = "b414d4",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack, CardTypes.Looter },
+}

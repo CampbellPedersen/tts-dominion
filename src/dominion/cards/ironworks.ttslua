@@ -1,0 +1,7 @@
+Ironworks = Card:new{
+  guid = "52baea",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

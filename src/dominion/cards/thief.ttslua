@@ -1,0 +1,7 @@
+Thief = Card:new{
+  guid = "cf36a7",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

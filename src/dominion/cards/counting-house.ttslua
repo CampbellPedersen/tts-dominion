@@ -1,0 +1,7 @@
+CountingHouse = Card:new{
+  guid = "9a0c53",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Port = Card:new{
+  guid = "44a68a",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

@@ -1,0 +1,7 @@
+Saboteur = Card:new{
+  guid = "6af232",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

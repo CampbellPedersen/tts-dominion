@@ -1,0 +1,7 @@
+Capital = Card:new{
+  guid = "31c886",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

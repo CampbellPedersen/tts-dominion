@@ -1,0 +1,7 @@
+TreasureTrove = Card:new{
+  guid = "aac3dd",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Treasure },
+}

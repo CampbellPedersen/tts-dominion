@@ -1,0 +1,7 @@
+Mandarin = Card:new{
+  guid = "5a096e",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

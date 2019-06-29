@@ -1,0 +1,7 @@
+Marauder = Card:new{
+  guid = "69c65f",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack, CardTypes.Looter },
+}

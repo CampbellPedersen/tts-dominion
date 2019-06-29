@@ -1,0 +1,11 @@
+Feodum = Card:new{
+  guid = "1c6c9c",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function Feodum:setup (obj, position)
+  Card:setup(obj, position, 8)
+end

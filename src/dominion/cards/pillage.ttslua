@@ -1,0 +1,7 @@
+Pillage = Card:new{
+  guid = "1f9b73",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

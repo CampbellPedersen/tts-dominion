@@ -1,0 +1,7 @@
+Archive = Card:new{
+  guid = "c3a944",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Duration },
+}

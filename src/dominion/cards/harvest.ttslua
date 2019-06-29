@@ -1,0 +1,7 @@
+Harvest = Card:new{
+  guid = "48cd20",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

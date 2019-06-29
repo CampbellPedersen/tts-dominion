@@ -1,0 +1,10 @@
+Laboratory = Card:new{
+  guid = "aeb41a",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
+
+-- BACK TO THE LAB AGAIN
+-- OH NO

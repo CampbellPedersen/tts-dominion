@@ -1,0 +1,7 @@
+Witch = Card:new{
+  guid = "3c633a",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

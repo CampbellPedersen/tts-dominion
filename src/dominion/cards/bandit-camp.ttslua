@@ -1,0 +1,7 @@
+BanditCamp = Card:new{
+  guid = "9c5162",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

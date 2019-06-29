@@ -1,0 +1,7 @@
+Bandit = Card:new{
+  guid = "a27e36",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

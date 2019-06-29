@@ -1,0 +1,7 @@
+BridgeTroll = Card:new{
+  guid = "67a10e",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack, CardTypes.Duration },
+}

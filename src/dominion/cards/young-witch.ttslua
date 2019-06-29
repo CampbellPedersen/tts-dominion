@@ -1,0 +1,9 @@
+YoungWitch = Card:new{
+  guid = "42a0b8",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}
+
+-- TODO: Young Witch setup. This one's tough, bane pile.

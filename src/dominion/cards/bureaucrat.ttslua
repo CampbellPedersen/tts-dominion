@@ -1,0 +1,7 @@
+Bureaucrat = Card:new{
+  guid = "11ce94",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Attack },
+}

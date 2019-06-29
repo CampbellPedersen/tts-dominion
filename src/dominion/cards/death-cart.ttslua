@@ -1,0 +1,7 @@
+DeathCart = Card:new{
+  guid = "f9959b",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Looter },
+}

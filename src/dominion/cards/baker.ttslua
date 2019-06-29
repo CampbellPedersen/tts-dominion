@@ -1,0 +1,7 @@
+Baker = Card:new{
+  guid = "85e169",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}

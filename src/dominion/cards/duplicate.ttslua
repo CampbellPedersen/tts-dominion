@@ -1,0 +1,7 @@
+Duplicate = Card:new{
+  guid = "25d35b",
+  cost = 4,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action, CardTypes.Reserve },
+}

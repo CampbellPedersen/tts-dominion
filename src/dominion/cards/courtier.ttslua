@@ -1,0 +1,7 @@
+Courtier = Card:new{
+  guid = "01ddb5",
+  cost = 5,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Action },
+}
