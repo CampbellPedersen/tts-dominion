@@ -1,0 +1,11 @@
+Colony = Card:new{
+  guid = "2b08e6",
+  cost = 11,
+  debt = 0,
+  potion = 0,
+  types = { CardTypes.Victory },
+}
+
+function Colony:setup (obj)
+  Card:setup(obj, {10.00, 1.03, 9.00}, 8)
+end
