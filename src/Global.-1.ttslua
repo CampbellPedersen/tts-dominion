@@ -1,6 +1,6 @@
 --[[ The onLoad event is called after the game save finishes loading. --]]
 function onLoad()
-  math.randomseed(os.time())
+
 end
 
 --[[ The onUpdate event is called once per frame. --]]

@@ -43,17 +43,13 @@ function arrayMerge(a1, a2)
   return arrayUnique(a1);
 end
 
-function arrayRandomUnique(a, numElements)
-  pickedIndexes= {}
-  pickedElements= {}
-  for i=1,numElements do
-    while(arrayHasValue(pickedIndexes, selected) or selected == nil) do
-      selected = math.random(#a)
-    end
-    pickedIndexes[#pickedIndexes+1] = selected
-    pickedElements[#pickedElements+1] = a[selected]
+function arrayShuffle(a)
+  ret = arrayCopy(a)
+  for i = #ret, 2, -1 do
+    local j = math.random(i)
+    ret[i], ret[j] = ret[j], ret[i]
   end
-  return pickedElements
+  return ret
 end
 
 function arrayFilter(t, func)
@@ -64,6 +60,14 @@ function arrayFilter(t, func)
   end
 
   return out
+end
+
+function arrayCopy(a)
+  local copy = {}
+  for k,v in pairs(a) do
+    copy[k] = v
+  end
+  return copy
 end
 
 function arrayPrint(a)

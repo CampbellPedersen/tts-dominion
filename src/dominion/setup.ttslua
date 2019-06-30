@@ -1,13 +1,18 @@
 #include !/util/array
 #include cards/index
 
--- From left to right, top to bottom
+-- Set random seed
+math.randomseed(os.time())
+
+-- From left to right
 supplyPositions = {
+  -- Top Row
   {-8.00, 1.14, -3.00},
   {-4.00, 1.14, -3.00},
   {0.00, 1.14, -3.00},
   {4.00, 1.14, -3.00},
   {8.00, 1.14, -3.00},
+  -- Bottom Row
   {-8.00, 1.14, -9.00},
   {-4.00, 1.14, -9.00},
   {0.00, 1.14, -9.00},
@@ -15,19 +20,30 @@ supplyPositions = {
   {8.00, 1.14, -9.00}
 }
 
+print(#SUPPLY_ELIGIBLE_CARDS)
+
 function setup()
   -- Selection
-  selectedCards = arrayRandomUnique(SUPPLY_ELIGIBLE_CARDS, 10)
-  sortedCards = arraySortTables(selectedCards, "cost")
+  selectionPool = arrayShuffle(SUPPLY_ELIGIBLE_CARDS)
+  selectedCards = {};
+  for i=1,10 do
+    selectedCard = table.remove(selectionPool, 1)
+    table.insert(selectedCards, selectedCard)
+  end
 
-  -- Additional Setup
+  -- TODO: Platinum + Colony setup
+
+  -- Potion Setup
   if (#arrayFilter(selectedCards, function(card) return card.potion > 0 end) > 0) then
     Potion:setup()
   end
 
   -- Placement
+  sortedCards = arraySortTables(selectedCards, "cost")
   for index,card in pairs(sortedCards) do
     obj = getObjectFromGUID(card.guid)
     card:setup(obj, supplyPositions[index])
   end
+
+  -- TODO: Trade Route setup
 end
