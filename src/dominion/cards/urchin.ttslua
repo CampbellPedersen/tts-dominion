@@ -7,7 +7,6 @@ Urchin = Card:new{
 }
 
 function Urchin:setup (obj, position, numCards)
-  print('SETTING UP URCHIN')
   Card:setup(obj, position, numCards)
   mercenary = getObjectFromGUID("41b331")
   Card:setup(mercenary, {12.00, 1.03, -3.00}, numCards)
