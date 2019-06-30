@@ -6,4 +6,4 @@ YoungWitch = Card:new{
   types = { CardTypes.Action, CardTypes.Attack },
 }
 
--- TODO: Young Witch setup. This one's tough, bane pile.
+-- TODO: Young Witch setup (Bane pile)

@@ -6,4 +6,4 @@ TradeRoute = Card:new{
   types = { CardTypes.Action },
 }
 
--- TODO: Trade route setup. Hard stuff.
+-- TODO: Trade route setup (Tokens on victory cards)

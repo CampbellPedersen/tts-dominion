@@ -6,4 +6,4 @@ BlackMarket = Card:new{
   types = { CardTypes.Action },
 }
 
--- TODO: Black Market setup. It's probably banned anyways tho so yea, maybe later.
+-- TODO: Black Market setup (Black Market deck)

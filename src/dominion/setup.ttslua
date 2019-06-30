@@ -47,5 +47,7 @@ function setup()
     card:setup(obj, supplyPositions[index])
   end
 
-  -- TODO: Trade Route setup
+  -- TODO: Bane pile setup
+  -- TODO: Black market deck setup
+  -- TODO: Trade Route tokens setup
 end
