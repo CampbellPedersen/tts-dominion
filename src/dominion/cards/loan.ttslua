@@ -1,4 +1,4 @@
-Enchantress = Card:new{
+Loan = Card:new{
   guid = "65deb7",
   cost = 3,
   debt = 0,
