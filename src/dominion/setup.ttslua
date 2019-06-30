@@ -20,11 +20,6 @@ supplyPositions = {
   {8.00, 1.14, -9.00}
 }
 
-for _,card in ipairs(SUPPLY_ELIGIBLE_CARDS) do
-  print(getObjectFromGUID(card.guid).getName())
-end
-print(#SUPPLY_ELIGIBLE_CARDS)
-
 function setup()
   -- Selection
   selectionPool = arrayShuffle(SUPPLY_ELIGIBLE_CARDS)

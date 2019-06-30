@@ -91,6 +91,7 @@
 #include forge
 #include fortress
 #include fortune-teller
+#include forum
 #include gardens
 #include gear
 #include ghost-ship
@@ -364,7 +365,7 @@ SUPPLY_ELIGIBLE_CARDS = {
   Forge,
   Fortress,
   FortuneTeller,
-  -- Forum,
+  Forum,
   Gardens,
   Gear,
   GhostShip,
