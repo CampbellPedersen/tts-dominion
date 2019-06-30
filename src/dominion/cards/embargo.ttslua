@@ -10,7 +10,5 @@ function Embargo:setup (obj, position)
   Card:setup(obj, position, 10)
 
   embargoToken = getObjectFromGUID('f19e8b')
-  for i=1,10 do
-    embargoToken.clone({position = {0.00, 1.01 + (0.5*i), -21.00} })
-  end
+  embargoToken.clone({position = {0.00, 1.01, -21.00} })
 end
