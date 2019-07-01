@@ -40,14 +40,18 @@ function setup()
     table.insert(selectedCards, selectedCard)
   end
 
+  -- Young Witch bane pile
+  if (#arrayFilter(selectedCards, function(card) return card.guid == YoungWitch.guid end) > 0) then
+    YoungWitch:banePile(selectionPool)
+  end
+
   -- Placement
   sortedCards = arraySortTables(selectedCards, "cost")
   for index,card in pairs(sortedCards) do
     obj = getObjectFromGUID(card.guid)
     card:setup(obj, supplyPositions[index])
   end
-
-  -- TODO: Bane pile setup
+  
   -- TODO: Black market deck setup
   -- TODO: Trade Route tokens setup
 end

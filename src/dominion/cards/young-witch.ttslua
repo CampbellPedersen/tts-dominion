@@ -6,4 +6,9 @@ YoungWitch = Card:new{
   types = { CardTypes.Action, CardTypes.Attack },
 }
 
--- TODO: Young Witch setup (Bane pile)
+function YoungWitch:banePile (selectionPool)
+  baneSelectionPool = arrayFilter(selectionPool, function(card) return card.cost == 2 or card.cost == 3 end)
+  card = table.remove(baneSelectionPool, 1)
+  obj = getObjectFromGUID(card.guid)
+  card:setup(obj, {-10.00, 1.03, 9.00})
+end
