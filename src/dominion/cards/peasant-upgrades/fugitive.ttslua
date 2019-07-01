@@ -5,3 +5,7 @@ Fugitive = Card:new{
   potion = 0,
   types = { CardTypes.Action, CardTypes.Traveller },
 }
+
+function Fugitive:setup (obj, position)
+  Card:setup(obj, position, 5)
+end

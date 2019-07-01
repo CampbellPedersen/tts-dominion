@@ -5,3 +5,7 @@ Warrior = Card:new{
   potion = 0,
   types = { CardTypes.Action, CardTypes.Attack, CardTypes.Traveller },
 }
+
+function Warrior:setup (obj, position)
+  Card:setup(obj, position, 5)
+end

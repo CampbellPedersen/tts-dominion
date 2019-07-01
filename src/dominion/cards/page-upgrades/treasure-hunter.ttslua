@@ -5,3 +5,7 @@ TreasureHunter = Card:new{
   potion = 0,
   types = { CardTypes.Action, CardTypes.Traveller },
 }
+
+function TreasureHunter:setup (obj, position)
+  Card:setup(obj, position, 5)
+end

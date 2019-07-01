@@ -8,5 +8,5 @@ Potion = Card:new{
 
 function Potion:setup ()
   obj = getObjectFromGUID(Potion.guid)
-  Card:setup(obj, {-10.00, 1.03, 3.00}, 20)
+  Card:setup(obj, {-10.00, 1.03, 3.00}, 16)
 end

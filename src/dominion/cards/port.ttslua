@@ -5,3 +5,7 @@ Port = Card:new{
   potion = 0,
   types = { CardTypes.Action },
 }
+
+function Port:setup (obj, position)
+  Card:setup(obj, position, 12)
+end

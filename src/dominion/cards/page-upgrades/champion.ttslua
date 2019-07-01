@@ -5,3 +5,7 @@ Champion = Card:new{
   potion = 0,
   types = { CardTypes.Action, CardTypes.Duration },
 }
+
+function Champion:setup (obj, position)
+  Card:setup(obj, position, 5)
+end
