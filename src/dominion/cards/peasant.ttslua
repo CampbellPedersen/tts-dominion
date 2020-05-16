@@ -15,7 +15,7 @@ function Peasant:setup (obj, position)
   upgrades = {
     { card = Soldier, position = {16.06, 1.03, -3.00} },
     { card = Fugitive, position = {20.00, 1.03, -3.00} },
-    { card = Hero, position = {24.00, 1.03, -3.00} },
+    { card = Soldier, position = {24.00, 1.03, -3.00} },
     { card = Teacher, position = {28.00, 1.03, -3.00} },
   }
   

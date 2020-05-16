@@ -5,3 +5,7 @@ Tunnel = Card:new{
   potion = 0,
   types = { CardTypes.Victory, CardTypes.Reaction },
 }
+
+function Tunnel:setup (obj, position)
+  Card:setup(obj, position, 8)
+end
