@@ -1,6 +1,6 @@
 -- Dependencies
-#include !/dominion/card
-#include !/dominion/constants
+#include ../dominion/card
+#include ../dominion/constants
 
 -- Cards
 #include adventurer

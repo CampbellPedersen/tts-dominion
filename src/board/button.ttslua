@@ -1,4 +1,4 @@
-#include !/dominion/setup
+#include ../dominion/setup
 
 function onLoad()
   params = {

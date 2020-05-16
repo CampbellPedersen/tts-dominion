@@ -1,4 +1,4 @@
-#include !/util/array
+#include ../util/array
 #include cards/index
 
 -- Set random seed
